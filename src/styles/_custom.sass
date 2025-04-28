@@ -15,21 +15,67 @@
 .brounded-sm
   border-radius: 8px !important
 
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.j1
+  display: grid
+  align-items: center  
+
+.br-1
+  border-radius: 10px !important 
+
+.color
+  &-1
+    color: #5B5BA1 !important
+    background: #5B5BA1 
+    border-radius: 50%
+  &-2
+    color: #5B5BA1 !important
+
+.lista-ul--color.ul-1 li > i:first-of-type 
+  top: 8px !important 
+  height: 100%
+  font-size: 0.7rem
+
+.lista-ul--color.ul-2 li > i:first-of-type  
+  top: 7px !important 
+  height: 100%
+  font-size: 1.1rem !important
+
+  
+
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #F5DEF4
   &-2
-    background-color: #FFFBE8
+    background-color: #E4F1D4
   &-3
-    background-color: #F0E9F6
+    background-color: #DDDDEB
   &-4
-    background-color: #EAF8FD
+    background-color: #C7F0EF
+  &-5
+    background-color: #5B5BA1  
+  &-6
+    background-color: #EDEDF5   
+  &-7
+    background-color: #CDCDE2 
+  &-8
+    background-color: #FBF3FB           
   &-info
-    background-color: #E8EEFD
+    background-image: url("../assets/bg/bg-info.png") !important
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+    width: 98%;
+    height: 98% !important    
 
 .border-top
   &.color-primario
@@ -39,23 +85,72 @@
   &.color-terciario
     border-top: 5px solid $color-terciario !important
 
+.bg
+  &-h85
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: 0%
+      left: 0
+      width: 100%
+      height: 82%
+      transform: translateY(-0%)
+      background-color: #5B5BA1
+      z-index: 0
+    .col-lg-12
+      z-index: 1
+    @media screen and (max-width: $bp-max-md)
+      padding: 1rem
+      &::after
+        bottom: 0
+        height: 100%    
+
 // Full Width Background
 .bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-  @media screen and (max-width: $bp-max-sm)
-    padding-left: 1.5rem
-    padding-right: 1.5rem
+  &-1
+    background-size: 100% 75%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem
+
+  &-2
+    background-size: 100% 62%
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem
+
+  &-3
+    background-size: 100% 85%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem           
 
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
+  &-3
+    background-image: url("../assets/bg/bg3.png") !important
+    background-position: top 
+  &-4
+    background-image: url("../assets/bg/bg4.png") !important
+    background-position: top 
+  &-5
+    background-image: url("../assets/bg/bg5.png") !important
+    background-position: top            
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -143,7 +238,7 @@ $custom-card-img-height: 322px
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
 
 .tabs-content
-  background-color: #F4F4F4
+  background-color: #EDEDF5 !important
 
 .material-complementario
   p,a
@@ -210,3 +305,23 @@ $custom-card-img-height: 322px
   a
     text-decoration: none
     color: $color-sistema-texto
+
+.acordion__header
+  background-color: #E4F1D4 !important
+
+.acordion__header--active
+  background-color: #A9D373 !important
+  h4, i
+    color: #000 !important
+
+.acordion__contenido
+  background-color: #F5FAF0 !important    
+
+.slyder-a__tipo-b
+  background-color: #1D7083 !important    
+.slyder-a__bullets__item
+  background-color: #BC9FC7 !important
+  border-color: #BC9FC7 !important
+.slyder-a__bullets__item--active
+  background-color: #A1BADA !important
+  border-color: #A1BADA !important  
