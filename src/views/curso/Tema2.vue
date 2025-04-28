@@ -391,28 +391,28 @@ export default {
           {
             id: 1,
             texto:
-              'El movimiento del conductismo, representado por John B. Watson, se centró en:',
+              '¿Cuál de los siguientes procesos mentales NO se menciona en el texto como fundamental para entender el comportamiento humano?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'La introspección y el análisis de sueños.',
+                texto: 'Percepción',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'El estudio del comportamiento observable y medible.',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'La filosofía y la ética.',
+                texto: 'Atención',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Intuición',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'La evolución de la mente humana a través del tiempo.',
+                texto: 'Memoria',
                 esCorrecta: false,
               },
             ],
@@ -421,28 +421,29 @@ export default {
           },
           {
             id: 2,
-            texto: '¿Qué concepto introdujo B.F. Skinner en la psicología?',
+            texto:
+              'Según el texto, ¿qué enfoque terapéutico se beneficia del entendimiento de la memoria?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'La teoría del inconsciente.',
+                texto: 'Terapias humanistas',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'El condicionamiento operante.',
+                texto: 'Terapias cognitivo-conductuales',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'La jerarquía de necesidades.',
+                texto: 'Terapias psicodinámicas',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'La teoría del aprendizaje social.',
+                texto: 'Terapias de grupo',
                 esCorrecta: false,
               },
             ],
@@ -452,29 +453,28 @@ export default {
           {
             id: 3,
             texto:
-              'Cuál de las siguientes afirmaciones describe mejor la teoría de Sigmund Freud sobre la personalidad?',
+              '¿Cuál de los siguientes tipos de memoria se refiere a la capacidad de recordar acciones futuras?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Se divide en dos partes: el yo y el superyó.',
+                texto: 'Memoria sensorial',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto:
-                  'Se compone de tres partes: el ello, el yo y el superyó.',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Se basa únicamente en la experiencia consciente.',
+                texto: 'Memoria a corto plazo',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Memoria prospectiva',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Es el resultado de la interacción social.',
+                texto: 'Memoria autobiográfica',
                 esCorrecta: false,
               },
             ],
@@ -484,28 +484,28 @@ export default {
           {
             id: 4,
             texto:
-              'Según el texto, ¿quién es considerado el "padre de la psicología"?',
+              '¿Qué neurotransmisor está asociado con la regulación del estado de ánimo y la felicidad?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Sigmund Freud.',
+                texto: 'Noradrenalina',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Wilhelm Wundt.',
+                texto: 'Dopamina',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Aristóteles.',
+                texto: 'Cortisol',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'John B. Watson',
+                texto: 'GABA',
                 esCorrecta: false,
               },
             ],
@@ -515,29 +515,28 @@ export default {
           {
             id: 5,
             texto:
-              '¿Cuál es el enfoque principal de la psicología como disciplina científica?',
+              '¿Cuál de las siguientes teorías sostiene que el aprendizaje es un proceso activo donde los estudiantes construyen su propio conocimiento?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Estudiar la naturaleza del universo.',
+                texto: 'Conductismo',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto:
-                  'Analizar el comportamiento y los procesos mentales de los individuos.',
+                texto: 'Condicionamiento clásico',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Investigar las leyes de la física.',
+                texto: 'Constructivismo',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Explorar la historia de la humanidad.',
+                texto: 'Teoría del aprendizaje significativo',
                 esCorrecta: false,
               },
             ],
