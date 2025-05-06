@@ -177,7 +177,7 @@
               figure
                 img.img-a.img-t(src="@/assets/curso/temas/45.png")            
             .col-lg-7
-              h5 
+              h5 Neurotransmisores
               ul.lista-ul--color
                 li.d-flex
                   i.far.fa-arrow-alt-circle-right.color-2
@@ -527,12 +527,12 @@ export default {
               {
                 id: 'b',
                 texto: 'Condicionamiento clásico',
-                esCorrecta: true,
+                esCorrecta: false,
               },
               {
                 id: 'c',
                 texto: 'Constructivismo',
-                esCorrecta: false,
+                esCorrecta: true,
               },
               {
                 id: 'd',

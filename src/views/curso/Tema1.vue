@@ -8,7 +8,7 @@
         figure
           img.img-a.img-t(src="@/assets/curso/temas/3.png", data-aos="zoom-in")            
       .col-lg-8
-        p(data-aos="fade-down") Antes de profundizar en los procesos básicos mentales, es fundamental comprender su importancia, dado que constituyen los cimientos de la comprensión del comportamiento humano. Estos procesos incluyen: percepción, atención, memoria, emoción, motivación y aprendizaje. Conocer cómo funcionan permite entender por qué las personas actúan de determinada manera en diferentes contextos. A través de su estudio, los psicólogos identifican patrones que revelan cómo los individuos toman decisiones, resuelven problemas y reaccionan ante diversas situaciones.accesibilidad.              
+        p(data-aos="fade-down") Antes de profundizar en los procesos básicos mentales, es fundamental comprender su importancia, dado que constituyen los cimientos de la comprensión del comportamiento humano. Estos procesos incluyen: percepción, atención, memoria, emoción, motivación y aprendizaje. Conocer cómo funcionan permite entender por qué las personas actúan de determinada manera en diferentes contextos. A través de su estudio, los psicólogos identifican patrones que revelan cómo los individuos toman decisiones, resuelven problemas y reaccionan ante diversas situaciones.             
 
         .bg-color-1.p-4(data-aos="fade-left")
           h5 Aplicaciones en psicología y salud mental
@@ -21,13 +21,13 @@
     .bg-full-width-1.bg-fondo-1
       .px-4.px-md-5.pb-md-3 
         .row.mb-5        
-          .col-lg-8         
+          .col-lg-8.mb-3.mb-lg-0          
             .bg-color-3.p-4.j1.mb-4(data-aos="fade-left")
               p.mb-0 En el ámbito educativo, comprender los procesos mentales permite a los docentes #[b adaptar sus métodos de enseñanza] para mejorar la retención y comprensión del conocimiento. Entender cómo funcionan la atención y la memoria, facilita la implementación de estrategias pedagógicas más eficaces. 
             p(data-aos="fade-down") Además, este conocimiento permite identificar diversas formas de aprendizaje y atender las necesidades individuales de los estudiantes. Esto se traduce en un aprendizaje más significativo y duradero. 
             h3(data-aos="fade-down") Estrategias prácticas basadas en procesos mentales
             p(data-aos="fade-down") Los siguientes ejemplos ilustran cómo este conocimiento puede aplicarse al aula:
-          .col-lg-4.mb-3.mb-lg-0 
+          .col-lg-4
             figure
               img.img-a.img-t(src="@/assets/curso/temas/4.png", data-aos="zoom-in")                
 
@@ -105,7 +105,7 @@
                 h5.mb-2.text-center Autoconciencia cognitiva
                 p.mb-0 Favorece el reconocimiento de emociones y patrones disfuncionales, facilitando el afrontamiento y la resiliencia.
 
-        h3(data-aos="fade-down") Impacto en la salud psicológica
+        h3(data-aos="fade-down") Intervención y prevención
 
         .bg-color-3.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
