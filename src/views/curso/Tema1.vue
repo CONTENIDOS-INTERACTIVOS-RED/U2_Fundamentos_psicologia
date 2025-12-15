@@ -393,7 +393,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="www.youtube.com/live/rS0MBnTIogE?si=T36wWD8cST5k3vs1" target="_blank" rel="noopener noreferrer") Fundación OSDE. (2021). Las puertas de la percepción.
+              a(href="https://www.youtube.com/live/rS0MBnTIogE?si=DR0tAYjMgCr6kdBd" target="_blank" rel="noopener noreferrer") Fundación OSDE. (2021). Las puertas de la percepción.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
